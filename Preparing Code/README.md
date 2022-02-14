@@ -1,14 +1,16 @@
-## Stage 1: 
-- Understand the data. Look at profiling report to understand the detail of each variables
-- Agree on the implementation
-## Stage 2: 
-- 
+## 1.Data Cleaning Process:
+- Understand the data. Look at pandas profiling report to understand the detail of each variables and the data set ( data types, nulls, max/min value, dirtribution..)
+- Agree on the implementation below
+### 1.1 Basic Cleaning:
+- Create a basic cleaning to have a cleaned data set for furthur taks in SQL & Tableau
+- Bathrooms, Floors: Change to int types, implement ceiling function in Notebook
+- Change header name to obtain understandable columns's name
+- Convert sq feet to sq m2 (It is more comfortable for us to work with sq m2)
+- Standaridize date to date_time format
 
 
 
 
 
-Univariable study. We'll just focus on the dependent variable ('SalePrice') and try to know a little bit more about it.
-Multivariate study. We'll try to understand how the dependent variable and independent variables relate.
-Basic cleaning. We'll clean the dataset and handle the missing data, outliers and categorical variables.
-Test assumptions. We'll check if our data meets the assumptions required by most multivariate techniques.
+
+
