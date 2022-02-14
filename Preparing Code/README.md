@@ -7,7 +7,8 @@
 - Change header name to obtain understandable columns's name
 - Convert sq feet to sq m2 (It is more comfortable for us to work with sq m2)
 - Standaridize date to date_time format
-
+### 1.2 Advanced Cleaning:
+- Waterfront: Change to 
 
 
 
