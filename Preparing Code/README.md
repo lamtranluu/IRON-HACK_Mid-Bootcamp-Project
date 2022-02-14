@@ -1,3 +1,4 @@
+# Feature Engineering:
 ## 1.Data Cleaning Process:
 - Understand the data. Look at pandas profiling report to understand the detail of each variables and the data set ( data types, nulls, max/min value, dirtribution..)
 - Agree on the implementation below
@@ -8,9 +9,12 @@
 - Convert sq feet to sq m2 (It is more comfortable for us to work with sq m2)
 - Standaridize date to date_time format
 ### 1.2 Advanced Cleaning:
-- **Waterfront:** Change to 
+- **Waterfront, Condition:** Change to Int
+- View: Convert to ranking or int
+- **Check outliers**: Bedrooms, m2_total, m2_living, 
+-  
 
-
+## 2.Feature Extraction:
 
 
 
