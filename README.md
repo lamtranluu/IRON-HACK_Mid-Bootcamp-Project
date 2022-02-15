@@ -3,11 +3,11 @@
 Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
 * We are team **Lamarckists**: [Marc Soler](https://github.com/mrpotato2012)  & Lam Luu with **Case Study: Housing Price Regrression.**
 ## 📋 Table of Content:
-* [Scenario](https://github.com/lamtranluu/Iron-Hack_Project1_Working-with-messy-data/blob/main/README.md#challenges)
-* [Objectives](https://github.com/lamtranluu/Iron-Hack_Project1_Working-with-messy-data/blob/main/README.md#objectives)
-* [Tools & Process](https://github.com/lamtranluu/Iron-Hack_Project1_Working-with-messy-data/blob/main/README.md#tools-process)
-* [Outcomes](https://github.com/lamtranluu/Iron-Hack_Project1_Working-with-messy-data/blob/main/README.md#data-insight) 
-* [Key take aways](https://github.com/lamtranluu/Iron-Hack_Project1_Working-with-messy-data/blob/main/README.md#key-take-aways) 
+* [Scenario](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-scenario-)
+* [Objectives](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-objectives-)
+* [Tools & Process](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-tools-)
+* [Outcomes](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-outcomes-) 
+* [Key take aways](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-keystakeaway-) 
 ## 👀 Scenario <img src="https://media.giphy.com/media/TGR2xO6HopOhraWYDo/giphy.gif" width="80px">
 - Play the role as Data analyst for a real estate company.
 - **Build a machine learning model to predict the selling prices of houses** based on a variety of features on which the value of the house is evaluated.
