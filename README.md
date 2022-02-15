@@ -8,12 +8,13 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
 * [Tools & Process](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-tools-)
 * [Outcomes](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-outcomes-) 
 * [Key take aways](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-keystakeaway-) 
-## 👀 Scenario <img src="https://media.giphy.com/media/TGR2xO6HopOhraWYDo/giphy.gif" width="80px">
+## 👀 Scenario 
+<img src="https://media.giphy.com/media/TGR2xO6HopOhraWYDo/giphy.gif" width="80px">
 - Play the role as Data analyst for a real estate company.
 - **Build a machine learning model to predict the selling prices of houses** based on a variety of features on which the value of the house is evaluated.
 - [Data Source](https://github.com/ironhack-edu/data_mid_bootcamp_project_regression)
 - [Contribution guidline for this project](https://github.com/ironhack-edu/data_mid_bootcamp_project_regression)
-## 🎯 Objectives <img src="https://media.giphy.com/media/YSBnRFLDhgr6G9LBZA/giphy.gif" width="40px">
+## 🎯 Objectives 
 **1. Build a model that will predict the price of a house based on features provided in the dataset.**
 
 **2. Visualize the features has an impact for higher property value - $650K and above.**
