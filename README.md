@@ -19,7 +19,7 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
 **2. Visualize the features has an impact for higher property value - $650K and above.**
 ## ⚙️ Tools:
  ![](https://img.shields.io/badge/Tableau-Visualisation-informational?style=flat&logo=tableau&logoColor=white&color=2bbc8a)
- ![](https://img.shields.io/badge/Python-JupyterNotebook-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
+ ![](https://img.shields.io/badge/Python-Code-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
  ![](https://img.shields.io/badge/MySQL-Querry-informational?style=flat&logo=mysql&logoColor=white&color=2bbc8a)
  ## ⚙️ Process:
  
