@@ -11,7 +11,7 @@ date VARCHAR (20),
 bedrooms INT,
 bathrooms INT,
 m2_living FLOAT,
-m2_lot FLOAT,
+m2_total FLOAT,
 floors INT,
 waterfront INT,
 view INT, 
@@ -32,7 +32,10 @@ price INT);
 #Answer: With table data import wizard
 
 # 4.Select all the data from table house_price_data to check if the data was imported correctly
-SELECT * FROM house_price_data;
+SELECT 
+    *
+FROM
+    house_price_data;
 
 # 5.Use the alter table command to drop the column date from the database,  
 #Select all the data from the table to verify if the command worked. Limit your returned results to 10.
@@ -46,40 +49,44 @@ LIMIT 10;
 
 # 6.Use sql query to find how many rows of data you have:
 SELECT 
-    COUNT(*)
+    COUNT(*) AS total_rows_data
 FROM
     house_price_data;
 
-# 7.What are the unique values in the column bedrooms?
+# 7.1 What are the unique values in the column bedrooms?
 SELECT DISTINCT
-    (bedrooms)
+    (bedrooms) AS bedrooms_unique_value
 FROM
     house_price_data;
-# 7.What are the unique values in the column bathrooms?
+    
+# 7.2 What are the unique values in the column bathrooms?
 SELECT DISTINCT
-    (bathrooms)
+    (bathrooms) AS bathrooms_unique_value
 FROM
     house_price_data;
-# 7.What are the unique values in the column floors?
+    
+# 7.3 What are the unique values in the column floors?
 SELECT DISTINCT
-    (floors)
+    (floors) AS floors_unique_value
 FROM
     house_price_data;
-# 7.What are the unique values in the column condition?
+    
+# 7.4 What are the unique values in the column condition?
 SELECT DISTINCT
-    (condition_rank)
+    (condition_rank) AS condition_unique_value
 FROM
     house_price_data;
-# 7.What are the unique values in the column grade?
+    
+# 7.5 What are the unique values in the column grade?
 SELECT DISTINCT
-    (grade)
+    (grade) AS grade_unique_value
 FROM
     house_price_data;
 
 #8.Arrange the data in a decreasing order by the price of the house. 
 #Return only the IDs of the top 10 most expensive houses in your data.
 SELECT 
-    id
+    id, price
 FROM
     house_price_data
 ORDER BY price DESC
@@ -91,9 +98,7 @@ SELECT
 FROM
     house_price_data;
 
-# 10. What is the average price of the houses grouped by bedrooms? 
-#The returned result should have only two columns, bedrooms and Average of the prices. 
-#Use an alias to change the name of the second column.
+# 10.1 What is the average price of the houses grouped by bedrooms? 
 SELECT 
     bedrooms AS no_of_bedrooms,
     CEILING(AVG(price)) AS the_avg_price
@@ -102,9 +107,7 @@ FROM
 GROUP BY bedrooms
 ORDER BY bedrooms ASC;
 
-# 10.What is the average sqft_living of the houses grouped by bedrooms? 
-#The returned result should have only two columns, bedrooms and Average of the sqft_living. 
-#Use an alias to change the name of the second column.
+# 10.2 What is the average sqft_living of the houses grouped by bedrooms? 
 SELECT 
     bedrooms AS no_of_bedrooms,
     CEILING(AVG(m2_living)) AS living_area
@@ -113,9 +116,7 @@ FROM
 GROUP BY bedrooms
 ORDER BY bedrooms ASC;
 
-# 10.What is the average price of the houses with a waterfront and without a waterfront? 
-#The returned result should have only two columns, waterfront and Average of the prices. 
-#Use an alias to change the name of the second column.
+# 10.3 What is the average price of the houses with a waterfront and without a waterfront? 
 SELECT 
     waterfront, 
     CEILING(AVG(price)) AS the_avg_price
@@ -123,15 +124,20 @@ FROM
     house_price_data
 GROUP BY waterfront;
 
-# 10.Is there any correlation between the columns condition and grade? 
+# 10.4 Is there any correlation between the columns condition and grade? 
 #You can analyse this by grouping the data by one of the variables and then aggregating the results of the other column. 
 #Visually check if there is a positive correlation or negative correlation or no correlation between the variables.
-select 
-@firstValue:=avg(condition_rank),
-@secondValue:=avg(grade),
-@division:=(stddev_samp(condition_rank) * stddev_samp(grade)) from house_price_data;
-select sum( ( condition_rank - @firstValue ) * (grade - @secondValue) ) / ((count(condition_rank) -1) * @division) from house_price_data;
-
+SELECT 
+    @firstValue:=AVG(condition_rank) as avg_condition,
+    @secondValue:=AVG(grade) as avg_grade,
+    @division:=(STDDEV_SAMP(condition_rank) * STDDEV_SAMP(grade)) as stddev_both
+FROM
+    house_price_data;
+SELECT 
+    ROUND(SUM((condition_rank - @firstValue) * (grade - @secondValue)) / ((COUNT(condition_rank) - 1) * @division),3) as correlation_score
+FROM
+    house_price_data;
+# The correlation is negative: -0,147.
 
 # 11.Write a simple query to find what are the options available for them?
 SELECT 
@@ -145,7 +151,7 @@ SELECT
 FROM
     house_price_data
 WHERE
-    bedrooms IN (3 , 4) AND bathrooms > 3
+    bedrooms IN (3 , 4 ) AND bathrooms  >= 3
         AND floors = 1
         AND waterfront = 0
         AND condition_rank NOT IN (1 , 2)
@@ -153,34 +159,63 @@ WHERE
         AND price < 300000;
         
 # 12.The list of properties whose prices are twice more than the average of all the properties in the database. 
-
-SELECT * FROM house_price_data
+SELECT 
+    *
+FROM
+    house_price_data
 WHERE
-    price > 2 * (SELECT AVG(price)FROM house_price_data);
+    price > 2 * (SELECT 
+            AVG(price)
+        FROM
+            house_price_data);
 
 # 13.Create a view of the same query.
-CREATE OR REPLACE  VIEW  properties_price_twice_avg as 
-SELECT * FROM house_price_data
-WHERE
-    price > 2 * (SELECT AVG(price)FROM house_price_data);
+CREATE OR REPLACE VIEW properties_price_twice_avg AS
+    SELECT 
+        *
+    FROM
+        house_price_data
+    WHERE
+        price > 2 * (SELECT 
+                AVG(price)
+            FROM
+                house_price_data);
 
 # 14.What is the difference in average prices of the properties with three and four bedrooms?
-
-SELECT CEILING((SELECT avg(price) from house_price_data where bedrooms =4) - (SELECT avg(price) from house_price_data where bedrooms = 3)) as diff_avg_price;
-
+SELECT 
+    CEILING((SELECT 
+                    AVG(price)
+                FROM
+                    house_price_data
+                WHERE
+                    bedrooms = 4) - (SELECT 
+                    AVG(price)
+                FROM
+                    house_price_data
+                WHERE
+                    bedrooms = 3)) AS diff_avg_price;
 
 # 15.What are the different locations where properties are available in your database? (distinct zip codes)
 SELECT DISTINCT
-    (zipcode)
+    (zipcode) AS diff_location
 FROM
     house_price_data;
 
 # 16.Show the list of all the properties that were renovated.
-SELECT * FROM house_price_data
+#Regarding our observation, there are some porperties has the difference in m2_living15 compared to m2_living, but it is missing information in
+#yr_renovated columns, so we decide to combine both scenario in our querry for a comprehensive result.
+SELECT 
+    *
+FROM
+    house_price_data
 WHERE
-    yr_renovated > 0;
+    yr_renovated > 0
+        OR (m2_living - m2_living15) != 0;
 
 # 17.Provide the details of the property that is the 11th most expensive property in your database.
-SELECT * FROM house_price_data
+SELECT 
+    *
+FROM
+    house_price_data
 ORDER BY price DESC
 LIMIT 10 , 1;
