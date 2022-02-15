@@ -16,7 +16,7 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
 - [Data Source](https://github.com/ironhack-edu/data_mid_bootcamp_project_regression)
 - [Contribution guidline for this project](https://github.com/ironhack-edu/data_mid_bootcamp_project_regression)
 ## 🎯 Objectives 
-**1. Build a model that will predict the price of a house based on features provided in the dataset.**
+**1. Build a model that will predict the price of a house based on features provided in the dataset (accuracy:0,9).**
 
 **2. Visualize the features has an impact for higher property value - $650K and above.**
 ## ⚙️ Tools:
