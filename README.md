@@ -10,6 +10,7 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
 * [Key take aways](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project#-keystakeaway-) 
 ## 👀 Scenario 
 <img src="https://media.giphy.com/media/TGR2xO6HopOhraWYDo/giphy.gif" width="80px">
+
 - Play the role as Data analyst for a real estate company.
 - **Build a machine learning model to predict the selling prices of houses** based on a variety of features on which the value of the house is evaluated.
 - [Data Source](https://github.com/ironhack-edu/data_mid_bootcamp_project_regression)
