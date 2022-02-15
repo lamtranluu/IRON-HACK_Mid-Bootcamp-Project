@@ -7,4 +7,4 @@
 ## 🔧 Method: 
 ![](https://img.shields.io/badge/MySQL-Querry-informational?style=flat&logo=mysql&logoColor=white&color=2bbc8a)
 ## 📊 Submission:
-[SQL Querry]()
+[SQL Querry](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/SQL/SQL_Deliverables%20Mid-Bootcamp%20Project.sql)
