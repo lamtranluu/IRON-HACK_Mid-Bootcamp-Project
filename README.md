@@ -79,13 +79,12 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
 <img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/r2_scores.png" width="700px">
 <img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/rmse_scores.png" width="700px">
 
-<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/feature_selection.png" width="400px">
-
  
 ## ‼️ Key Take Aways
  - We delivered a fully functional model that, given data on the same features it was trained on, can predict the price of a property in King County, WA, within a margin of error of $117k.
  
  - The most important variables to predict the price of Real Estate in King County, WA, are the grade of the building, its location (especially the latitude), the living area, the number of bathrooms, the period in which it was built, whether it is at the waterfront or not and the views it has.
+ <img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/feature_selection.png" width="400px">
  
  - Negative Root Mean Square Error is the way to go in terms of metrics when it comes to hyperparameter optimization or feature selection.
  
