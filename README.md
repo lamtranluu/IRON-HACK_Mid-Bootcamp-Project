@@ -62,17 +62,21 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
  - Optimal hyperparameters were found for the Gradient Boosting model
  
 
-## 📌 Outcomes:  
- - Fully interactive Tableau [dashboard](https://public.tableau.com/app/profile/marcsoler/viz/RealEstateReportMid-BootcampProject/RealEstate) containing:  
- 
-     - A complete report on the high-end housing market in King County, WA.
-     ![](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau1.png)
-     ![](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau2.png)
-     - A useful widget for real estate buyers to help them find their ideal property.
-     ![](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau3.png)
+## 📌 Outcomes:
+* Fully interactive Tableau [dashboard](https://public.tableau.com/app/profile/marcsoler/viz/RealEstateReportMid-BootcampProject/RealEstate)
+* A complete report on the high-end housing market in King County, WA.
+
+<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau1.png" width="700px">
+
+<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau2.png" width="700px">
+
+* An useful widget for real estate buyers to help them find their ideal property.
+
+<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau3.png" width="700px">
+
+* A Gradient Boosting Regression model with an R2 score of 0.89 and a RMSE of 117630 after trying 9 models in 7 different iterations:
+
  
- - A Gradient Boosting Regression model with an R2 score of 0.89 and a RMSE of 117630 after trying 9 models in 7 different iterations:
-  ![]()
  
 ## ‼️ Key Take Aways
  - We delivered a fully functional model that, given data on the same features it was trained on, can predict the price of a property in King County, WA, within a margin of error of $117k.
