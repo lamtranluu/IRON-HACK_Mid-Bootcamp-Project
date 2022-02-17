@@ -21,7 +21,7 @@
 
 # Feature Engineering/ Extraction:
 - Create new feature from year built into 4 periods: 1900-1947", "1947-1965", "1965-1983","1983-2001", "2001-2015"
-- Create a new feature from grade rank into 5 rankings ( object type)
+- Create a new feature from grade rank into 5 rankings ( object_type)
 - Create a new feature for Renovated (Boolean type)
 - Create a new feature for the basement
 - Extract month, 'year' from 'date' sold.
