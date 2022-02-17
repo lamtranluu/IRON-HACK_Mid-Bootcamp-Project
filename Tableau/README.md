@@ -7,6 +7,6 @@
 ## 🔧 Method: 
 ![](https://img.shields.io/badge/Tableau-Visualisation-informational?style=flat&logo=tableau&logoColor=white&color=2bbc8a)
 ## 📊 Submission:
-[Tableau Public File](https://public.tableau.com/app/profile/marcsoler/viz/TableauDeliverablesMid-BootcampProject/RealEstateSalesinKingCounty2014-20152)
+[Tableau Tasks](https://public.tableau.com/app/profile/marcsoler/viz/TableauDeliverablesMid-BootcampProject/RealEstateSalesinKingCounty2014-20152)
 
 
