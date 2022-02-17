@@ -24,10 +24,27 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
  ![](https://img.shields.io/badge/Python-Code-informational?style=flat&logo=python&logoColor=white&color=2dbc8a)
  ![](https://img.shields.io/badge/MySQL-Querry-informational?style=flat&logo=mysql&logoColor=white&color=2bbc8a)
  ## ⚙️ Process:
- 
- 
- 
- 
+ 1. **Set up working environment**: Trello & Github repository
+ 2. **Business Understanding**: 
+ - Identify main objectives of Case Study
+ - Understand the meaning of each variables in Real Estate context
+ - Create an effiecient timeline to finish all tasks on time
+ 3. **Data Exploration**: 
+ - Regarding on the profilling report, implement Basic Data cleaning stage to have data set for completing SQL & Tableau tasks
+ - [SQL]
+ - [Tableau tasks]
+ - Implemented Advanced Data Cleaning
+ - Visualisation in Jupyter Notebook
+ 4. **Data Preparation**:
+ - Implement Feature Engineering/Extraction before Data Modeling: create new features
+ - Feature Selections is implemented in different round (Modeling Iterations)
+ - Feature Scaling is implemented in different round (Modeling Iterations)
+ 5. **Data Modeling**:
+ - Implement 7 different models:....
+ - Implement .... round (Modeling Iterations)
+ 6. **Present Result**:
+ - Present result after ... round
+ - Present dashboard, story in Tableau Public
  
  ## 🔎 Outcomes:
  
