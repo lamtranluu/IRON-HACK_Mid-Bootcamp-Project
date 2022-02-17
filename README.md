@@ -41,11 +41,23 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
  - Feature Selections is implemented in the different rounds (Modeling Iterations)
  - Feature Scaling is implemented in the different rounds (Modeling Iterations)
  5. **Data Modeling**:
- - Implement 9 different models:....
- - Implement .... round (Modeling Iterations)
+ - Implement **9** different models:
+ - Linear regression
+ - Lasso regression
+ - Support vector machines
+ - Decision trees regression
+ - Random forest regression
+ - K Neighbors regression
+ - Gradient boosting regression
+ - Kernel ridge regression
+ - Bayesian ridge regression
+ - Implement **7** round (Modeling Iterations)
+ 
  6. **Present Result**:
- - Present result after ... round
- - Present dashboard, a story in Tableau Public
+ - Present result after **7** round
+ [Photo]
+ - Present [dashboard], a [story] in Tableau Public
+ [Photo]
  
 ## 📌 Outcomes:
  
