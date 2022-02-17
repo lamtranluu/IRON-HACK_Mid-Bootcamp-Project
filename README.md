@@ -72,11 +72,15 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
 
 * An useful widget for real estate buyers to help them find their ideal property.
 
-<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau3.png" width="700px">
+<img align="centre" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau3.png" width="700px">
 
 * A Gradient Boosting Regression model with an R2 score of 0.89 and a RMSE of 117630 after trying 9 models in 7 different iterations:
 
- 
+<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/r2_scores.png" width="700px">
+<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/rmse_scores.png" width="700px">
+
+<img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/feature_selection.png" width="400px">
+
  
 ## ‼️ Key Take Aways
  - We delivered a fully functional model that, given data on the same features it was trained on, can predict the price of a property in King County, WA, within a margin of error of $117k.
