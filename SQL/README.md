@@ -5,6 +5,6 @@
 * The data source [download here!](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Preparing%20Code/Data/clean_data.csv)
 
 ## 🔧 Method: 
-![](https://img.shields.io/badge/MySQL-Querry-informational?style=flat&logo=mysql&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/MySQL-Query-informational?style=flat&logo=mysql&logoColor=white&color=2bbc8a)
 ## 📊 Submission:
-[SQL Querry](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/SQL/SQL_Deliverables%20Mid-Bootcamp%20Project.sql)
+[SQL Query File](https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/SQL/SQL_Deliverables%20Mid-Bootcamp%20Project.sql)
