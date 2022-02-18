@@ -9,5 +9,5 @@
 ## 📊 Submission:
 1. [Tableau Tasks](https://public.tableau.com/app/profile/marcsoler/viz/TableauDeliverablesMid-BootcampProject/RealEstateSalesinKingCounty2014-20152)
 
-2. [Tableau Story](https://public.tableau.com/app/profile/lamluu/viz/RealEstateReportMid-BootcampProject_16451304385530/RealEstate?publish=yes)
+2. [Tableau Story](https://public.tableau.com/app/profile/lamluu/viz/RealEstateReportMid-BootcampProject_16451304385530/RealEstate)
 
