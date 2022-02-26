@@ -63,7 +63,7 @@ Hello there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif
  
 
 ## 📌 Outcomes:
-* Fully interactive Tableau [dashboard](https://public.tableau.com/app/profile/marcsoler/viz/RealEstateReportMid-BootcampProject/RealEstate)
+* Fully interactive Tableau [dashboard](https://public.tableau.com/app/profile/marcsoler/viz/TableauDeliverablesMid-BootcampProject/RealEstateSalesinKingCounty2014-20152)
 * A complete report on the high-end housing market in King County, WA.
 
 <img align="center" src="https://github.com/lamtranluu/IRON-HACK_Mid-Bootcamp-Project/blob/main/Images/tableau1.png" width="700px">
